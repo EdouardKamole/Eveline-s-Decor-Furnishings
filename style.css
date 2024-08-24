@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header,
+.footer {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%; /* Makes the image fit the width of the card */
+  height: 200px; /* Sets a fixed height for all images */
+  object-fit: cover; /* Ensures images cover the dimensions without distortion */
+  border-radius: 8px; /* Optional: adds rounded corners to images */
+  display: block; /* Ensures there are no extra spaces below the image */
+}
+.add-to-cart-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}

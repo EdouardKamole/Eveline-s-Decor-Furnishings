@@ -1,0 +1,45 @@
+body {
+  background-color: #6a1b9a;
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #f7f7f7;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #6a1b9a;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4a148c;
+}
+
+.btn-outline-secondary {
+  border-color: #6a1b9a;
+  color: #6a1b9a;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6a1b9a;
+  color: #fff;
+}
+
+#message {
+  font-weight: bold;
+  color: green;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,120 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Main container */
+.container {
+  margin-top: 20px;
+}
+
+/* Filters section */
+#filters {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filters .form-group {
+  margin-bottom: 15px;
+}
+
+#filters label {
+  font-weight: bold;
+}
+
+#filters .form-control-range {
+  width: 100%;
+}
+
+#filters .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+#filters .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Product grid */
+#product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%; /* Ensures the image covers the full width of its container */
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+  border-bottom: 1px solid #ddd; /* Existing border style */
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #product-grid {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Home Decor and Furniture Store</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <!-- Header with Navbar -->
+    <header class="bg-dark text-white">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home Decor & Furniture</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cart.html">Cart (0)</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-4">
+      <h2>Your Cart</h2>
+      <div id="cart-items" class="row">
+        <!-- Cart items will be dynamically inserted here -->
+      </div>
+      <div class="mt-4">
+        <h3>Total: <span id="cart-total">$0.00</span></h3>
+        <a href="checkout.html" class="btn btn-primary">Proceed to Checkout</a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Home Decor & Furniture Store. All rights reserved.</p>
+      <p>
+        <a href="#" class="text-white">Privacy Policy</a> |
+        <a href="#" class="text-white">Terms of Service</a>
+      </p>
+      <div>
+        <a href="#"
+          ><img
+            src="images/facebook-icon.jpg"
+            alt="Facebook"
+            class="social-icon"
+        /></a>
+        <a href="#"
+          ><img src="images/twitter-icon.jpg" alt="Twitter" class="social-icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="images/instagram-icon.jpg"
+            alt="Instagram"
+            class="social-icon"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
