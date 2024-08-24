@@ -15,8 +15,6 @@ Features
 Tech Stack
 
 - Frontend: HTML, CSS, JavaScript, Bootstrap
-- Backend: Node.js (if applicable)
-- Database: MongoDB (if applicable)
 - Version Control: Git, GitHub
   
    
